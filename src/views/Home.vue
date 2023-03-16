@@ -10,7 +10,7 @@ import BaseButton from "@/components/BaseButton/index.vue";
     </video>
     <div class="back w-full h-screen px-24 ">
       <BaseNavbar />
-      <div class="flex mt-32 justify-center text-center">
+      <div class="flex mt-40 justify-center text-center">
         <div>
           <p
             class="text-white text-5xl uppercase font-semibold"
