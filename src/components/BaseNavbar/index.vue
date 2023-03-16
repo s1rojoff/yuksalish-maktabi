@@ -28,7 +28,7 @@ const navItems = [
 </script>
 
 <template>
-  <div class="py-5 flex justify-between items-center" style="backdrop-filter: blur(60px)">
+  <div class="px-24 py-5 flex justify-between items-center" style="backdrop-filter: blur(60px)">
     <router-link to="/"
       ><img src="/logo.png" class="w-28 h-16" alt="logo"
     /></router-link>

@@ -8,9 +8,9 @@ import BaseButton from "@/components/BaseButton/index.vue";
     <video autoplay playsinline loop muted class="absolute -z-10 top-0 left-0">
       <source src="/images/header.mp4" type="video/mp4" />
     </video>
-    <div class="back w-full h-screen px-24 ">
+    <div class="back w-full h-screen">
       <BaseNavbar />
-      <div class="flex mt-40 justify-center text-center">
+      <div class="flex px-24  mt-40 justify-center text-center">
         <div>
           <p
             class="text-white text-5xl uppercase font-semibold"
