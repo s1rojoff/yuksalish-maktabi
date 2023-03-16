@@ -1,0 +1,7 @@
+<template>
+  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <circle cx="11.75" cy="18.25" r="1.75" transform="rotate(-90 11.75 18.25)" fill="#001018" />
+    <circle cx="11.75" cy="12" r="1.75" transform="rotate(-90 11.75 12)" fill="#001018" />
+    <circle cx="11.75" cy="5.75" r="1.75" transform="rotate(-90 11.75 5.75)" fill="#001018" />
+  </svg>
+</template>
