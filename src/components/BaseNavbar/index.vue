@@ -26,12 +26,12 @@ const navItems = [
   },
 ];
 function clickNav(val:any){
-  
+
 }
 </script>
 
 <template>
-  <div class="flex pr-24 pl-24 h-28 justify-between items-center back">
+  <div class="flex pr-24 pl-24 h-28 justify-between items-center" style="background-color: rgb(8, 15, 70);">
     <router-link to="/"
       ><img src="/logo.png" class="w-28 h-16" alt="logo"
     /></router-link>

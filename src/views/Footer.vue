@@ -4,7 +4,7 @@
   <div id="footer" class="pr-24 flex items-center justify-between pb-5 pl-24 pt-5 w-full bg-gray-700">
     <div>
       <a href="#home">
-        <img src="/logo.png" class="w-28 h-16" alt="logo" />
+        <img src="/logo.png" class="w-32 h-[70px]" alt="logo" />
       </a>
     </div>
     <div class="text-center">
