@@ -4,7 +4,7 @@ import BaseButton from "@/components/BaseButton/index.vue";
 </script>
 
 <template>
-  <header class="relative h-screen overflow-y-hidden">
+  <header id="home" class="relative h-screen overflow-y-hidden">
     <video autoplay playsinline loop muted class="absolute -z-10 top-0 left-0">
       <source src="/images/header.mp4" type="video/mp4" />
     </video>
@@ -21,13 +21,13 @@ import BaseButton from "@/components/BaseButton/index.vue";
           <p class="text-lg text-white mt-3 font-medium" style="letter-spacing: 4px;">
             Ta'lim va tarbiya birlashga dargoh
           </p>
-          <BaseButton class="mt-5 tracking-widest" text="Murojaat uchun" />
+          <router-link to="/contact"><BaseButton class="mt-5 tracking-widest" text="Murojaat uchun" /></router-link>
         </div>
       </div>
     </div>
   </header>
 </template>
-<style scoped>
+<style>
 .back {
   background-color: rgba(8, 15, 70, 0.7);
 }

@@ -2,7 +2,7 @@
 const navItems = [
   {
     name: "Asosiy",
-    route: "/",
+    route: "home",
   },
   {
     name: "Biz haqimizda",
@@ -25,20 +25,23 @@ const navItems = [
     route: "contact",
   },
 ];
+function clickNav(val:any){
+  
+}
 </script>
 
 <template>
-  <div class="flex pr-24 pl-24 h-28 justify-between items-center" style="backdrop-filter: blur(60px)">
+  <div class="flex pr-24 pl-24 h-28 justify-between items-center back">
     <router-link to="/"
       ><img src="/logo.png" class="w-28 h-16" alt="logo"
     /></router-link>
     <div class="flex justify-between items-center">
-      <router-link
+      <p
         class="text-base font-normal text-white ml-8"
         v-for="(item, index) in navItems"
+        @click=""
         :key="index"
-        :to="item.route"
-        ><p>{{ item.name }}</p></router-link
+        ><a :href="`#${item.route}`">{{ item.name }}</a></p
       >
     </div>
   </div>
