@@ -1,7 +1,7 @@
 <script setup lang="ts">  
 </script>
 <template>
-  <div id="footer" class="pr-24 flex items-center justify-between pb-5 pl-24 pt-5 w-full bg-gray-700">
+  <div id="footer" class="pr-24 flex items-center justify-between pb-5 pl-24 pt-5 w-full bg-black">
     <div>
       <a href="#home">
         <img src="/logo.png" class="w-32 h-[70px]" alt="logo" />
@@ -9,7 +9,7 @@
     </div>
     <div class="text-center">
         <p class="text-xl font-semibold text-white">Yuksalish maktabi</p>
-        <p class="text-base font-normal text-white">Ta'lim va tarbiya birlashgan dargoh</p>
+        <p class="text-base font-light text-white">Ta'lim va tarbiya birlashgan dargoh</p>
     </div>
     <div class="flex items-center">
         <a href="https://t.me/yuksalish_maktablari" target="_blank"><img src="/images/telegram.png" class="w-7 h-7" alt="telegram"></a>

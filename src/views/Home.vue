@@ -9,7 +9,7 @@ import BaseButton from "@/components/BaseButton/index.vue";
       <source src="/images/header.mp4" type="video/mp4" />
     </video>
     <div class="w-full h-screen">
-      <div class="fixed top-0 w-full"> 
+      <div class="fixed z-10 top-0 w-full"> 
         <BaseNavbar />
       </div>
       <div class="flex px-24 mt-40 justify-center text-center">

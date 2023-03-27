@@ -1,12 +1,32 @@
 <script setup lang="ts">
-import BaseNavbar from "@/components/BaseNavbar/index.vue";
+import BaseIcon from "@/components/BaseIcon/index.vue";
+import AboutVideo from '@/components/AboutVideo/index.vue'
+import {useStore} from '@/stores/main'
+const store:any = useStore()
+
+function toggleVideo():void{
+  store.aboutVideo = !store.aboutVideo
+  console.log(store.aboutVideo);
+  
+}
 </script>
 <template>
-  <div id="about" class="mt-10 px-24">
-    <p class="text-4xl text-black font-semibold text-center">Biz haqimizda</p>
-    <div class="grid grid-cols-2 mt-10">
-      <div class="">
-        <img src="/images/muhammadaliEshonqulov.jpg" class="rounded-3xl" alt="" />
+  <div id="about" class="relative">
+    <p class="text-4xl text-black font-semibold text-center pt-10">
+      Biz haqimizda
+    </p>
+    <div class="grid px-24 grid-cols-2 mt-10">
+      <div class="relative rounded-3xl overflow-hidden">
+        <img src="/images/muhammadaliEshonqulov.jpg" class="" alt="" />
+        <div
+          class="bg-black opacity-10 w-full h-full absolute top-0 left-0"
+        ></div>
+        <div
+          @click="toggleVideo"
+          class="absolute cursor-pointer top-[40%] left-[45%] border-2 w-16 h-16 p-3 border-white rounded-full"
+        >
+          <BaseIcon class="w-10 h-10 text-white -rotate-90" name="Down" />
+        </div>
       </div>
       <div class="px-10 text-black">
         <p class="text-center text-black font-semibold text-lg">
@@ -29,6 +49,9 @@ import BaseNavbar from "@/components/BaseNavbar/index.vue";
           chuqurlashtirilib òqitiladi.
         </p>
       </div>
+    </div>
+    <div>
+      <AboutVideo toggle="toggleVideo" v-if="store.aboutVideo"/>
     </div>
   </div>
 </template>
