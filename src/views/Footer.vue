@@ -1,7 +1,7 @@
 <script setup lang="ts">  
 </script>
 <template>
-  <div id="footer" class="pr-24 flex items-center justify-between pb-5 pl-24 pt-5 w-full bg-black">
+  <div id="footer" class="pr-24 flex items-center justify-between pb-5 pl-24 pt-5 w-full bg-[#080F46]">
     <div>
       <a href="#home">
         <img src="/logo.png" class="w-32 h-[70px]" alt="logo" />

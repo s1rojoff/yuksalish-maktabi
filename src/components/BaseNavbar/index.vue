@@ -2,7 +2,7 @@
 const navItems = [
   {
     name: "Asosiy",
-    route: "home",
+    route: "/",
   },
   {
     name: "Biz haqimizda",
@@ -37,7 +37,7 @@ function clickNav(val:any){
     /></router-link>
     <div class="flex justify-between items-center">
       <p
-        class="text-base font-normal text-white ml-8"
+        class="text-base transition font-normal text-white ml-8"
         v-for="(item, index) in navItems"
         @click=""
         :key="index"

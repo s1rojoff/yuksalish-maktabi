@@ -4,7 +4,7 @@ import BaseButton from "@/components/BaseButton/index.vue";
 </script>
 
 <template>
-  <header id="home" class="relative back h-screen overflow-y-hidden">
+  <header id="/" class="relative back h-screen overflow-y-hidden">
     <video autoplay playsinline loop muted class="absolute -z-10 top-0 left-0">
       <source src="/images/header.mp4" type="video/mp4" />
     </video>
@@ -12,7 +12,7 @@ import BaseButton from "@/components/BaseButton/index.vue";
       <div class="fixed z-10 top-0 w-full"> 
         <BaseNavbar />
       </div>
-      <div class="flex px-24 mt-40 justify-center text-center">
+      <div class="flex px-24 translate-y-full mt-20 justify-center text-center">
         <div>
           <p
             class="text-white text-5xl uppercase font-semibold"
@@ -27,7 +27,7 @@ import BaseButton from "@/components/BaseButton/index.vue";
             Ta'lim va tarbiya birlashga dargoh
           </p>
           <a href="#contact"
-            ><BaseButton class="mt-5 tracking-widest" text="Murojaat uchun"
+            ><BaseButton size="lg" class="mt-5 tracking-widest" text="Murojaat uchun"
           /></a>
         </div>
       </div>
