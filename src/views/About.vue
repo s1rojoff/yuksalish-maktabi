@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import BaseIcon from "@/components/BaseIcon/index.vue";
 import AboutVideo from '@/components/AboutVideo/index.vue'
+import { storeToRefs } from "pinia";
 import {useStore} from '@/stores/main'
 const store:any = useStore()
 
@@ -9,6 +10,7 @@ function toggleVideo():void{
   console.log(store.aboutVideo);
   
 }
+storeToRefs(store)
 </script>
 <template>
   <div id="about" class="relative">

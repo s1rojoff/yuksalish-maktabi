@@ -16,7 +16,7 @@ const props = defineProps({
   <button v-bind="attrs" class="bg-[#F68220] hover:bg-[#f39549]   rounded-3xl text-white text-base" 
     :class="{
       'py-3 px-10': props.size === 'lg',
-      'py-1.5 px-5' : props.size === 'md'
+      'py-1.5 px-7' : props.size === 'md'
     }"
   >
     {{props.text}}

@@ -54,12 +54,12 @@ function sendData(): any {
         referrerpolicy="no-referrer-when-downgrade"
       ></iframe>
     </div>
-    <div class="mt-5 pb-10 w-full">
-      <p class="text-center text-lg font-medium">
+    <div class="mt-10 pb-10 w-full">
+      <p class="text-center text-xl font-medium">
         Anketani to'ldiring, biz imkon qadar tezroq siz bilan bog'lanamiz
       </p>
-      <div class="flex justify-center mt-5">
-        <div class="w-1/2 bg-slate-200 py-10 px-5 rounded-xl">
+      <div class="flex justify-center mt-3">
+        <div class="w-1/2 bg-slate-200 pt-10 pb-6 px-5 rounded-xl">
           <div class="flex justify-between pb-2">
             <div class="w-1/2 pr-3">
               <label for="fname">O'quvchining ismi</label>
@@ -111,7 +111,7 @@ function sendData(): any {
           <div class="flex justify-center mt-2">
             <BaseBtn
               @click="sendData"
-              class="tracking-widest mt-2"
+              class="tracking-widest mt-5"
               :class="[
                 (name, sname, phone, age)
                   ? 'cursor-pointer'
