@@ -42,7 +42,7 @@ const newItems: any = [
         <Slide v-for="slide in newItems" :key="slide">
           <div>
             <div class="flex justify-center">
-              <img :src="slide.img" alt="" />
+              <img :src="slide.img" :alt="slide.img" />
             </div>
             <div class="px-10">
               <p class="text-lg font-medium">{{ slide.title }}</p>

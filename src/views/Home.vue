@@ -24,7 +24,7 @@ import BaseButton from "@/components/BaseButton/index.vue";
             class="text-lg text-white mt-3 font-medium"
             style="letter-spacing: 4px"
           >
-            Ta'lim va tarbiya birlashga dargoh
+            Ta'lim va tarbiya birlashgan dargoh
           </p>
           <a href="#contact"
             ><BaseButton size="lg" class="mt-5 tracking-widest" text="Murojaat uchun"
