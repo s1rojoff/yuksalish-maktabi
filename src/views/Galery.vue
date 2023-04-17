@@ -1,7 +1,42 @@
 <script setup lang="ts">
-import { defineComponent, ref } from "vue";
+import {ref } from "vue";
 import { Carousel, Slide, Pagination } from "vue3-carousel";
 import "vue3-carousel/dist/carousel.css";
+import BaseAccordion from '@/components/BaseAccordion/index.vue'
+const allClasses = [
+  {
+    name: "1-sinflar",
+    classes: ["Harvard", "Cambridge", "Stanford"],
+  },
+  {
+    name: "2-sinflar",
+    classes: ["Californiya", "Oxford"],
+  },
+  {
+    name: "3-sinflar",
+    classes: ["Toronto", "Columbiya"],
+  },
+  {
+    name: "4-sinflar",
+    classes: ["Michigan", "Chicago"],
+  },
+  {
+    name: "5-sinflar",
+    classes: ["Pensylvania", "Tokyo", "Yuksalish"],
+  },
+  {
+    name: "6-sinflar",
+    classes: ["Singapore", "Washington", "MIT"],
+  },
+  {
+    name: "7-sinflar",
+    classes: ["Shanhai", "Wharton", "Leaders", "Westminister"],
+  },
+  {
+    name: "8-sinflar",
+    classes: ["Princeton", "London"],
+  },
+];
 const lessonImg = [
   "/lesson_imgs/lesson1.png",
   "/lesson_imgs/lesson2.png",
@@ -53,9 +88,8 @@ function slideTo(val: number) {
         </Carousel>
         <div class="mt-3">
           <p class="text-xl font-semibold text-center">Sinflarimiz</p>
-          <div>
-          <p></p>
-
+          <div class="pl-5">
+            <BaseAccordion :data="allClasses"/>
           </div>
         </div>
       </div>
