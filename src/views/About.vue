@@ -13,8 +13,8 @@ function toggleVideo():void{
 storeToRefs(store)
 </script>
 <template>
-  <div id="about" class="relative">
-    <p class="text-4xl text-black font-semibold text-center pt-10">
+  <div id="about" class="relative pt-28">
+    <p class="text-4xl text-black font-semibold text-center mt-10">
       Biz haqimizda
     </p>
     <div class="grid px-24 grid-cols-2 mt-10">

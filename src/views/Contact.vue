@@ -41,7 +41,7 @@ function sendData(): any {
 }
 </script>
 <template>
-  <div id="contact" class="px-24 pt-10 bg-slate-50">
+  <div id="contact" class="px-24 pt-28 bg-slate-50">
     <p class="text-3xl pb-10 text-black font-semibold text-center">
       Biz bilan bog'lanish
     </p>

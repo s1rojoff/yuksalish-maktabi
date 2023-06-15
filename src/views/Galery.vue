@@ -51,7 +51,7 @@ function slideTo(val: number) {
 }
 </script>
 <template>
-  <div id="galery" class="px-24">
+  <div id="galery" class="px-24 pt-28">
     <p class="text-3xl pb-10 text-black font-semibold text-center">
       Darslardan foto lavhalar
     </p>

@@ -33,7 +33,7 @@ const newItems: any = [
 ];
 </script>
 <template>
-  <div id="news" class="my-10 px-24">
+  <div id="news" class="my-10 pt-28 px-24">
     <p class="text-3xl text-black font-semibold text-center">
       Maktabimizdagi yangiliklar
     </p>
